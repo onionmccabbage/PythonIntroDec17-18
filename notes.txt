@@ -1,0 +1,68 @@
+Python Introduction
+===================
+
+December 17-18 2024
+
+Toby Dussek
+
+9:30 start
+11:00 coffee until 11:15
+12:30 Lunch until 1:30
+3:00 tea until 3:15
+4:30 end
+
+Welcome and Introductions
+    What you currently know
+    What you want to know
+    Course Resources
+        
+    python.org documentation
+    Skillnet NI forms
+        - make sure these are completed
+
+Know your IDE
+    - Editing Files
+    - Setting python interpreter
+    - Debugging
+    - Shortcuts
+
+Python code essentials
+    - Foundational Concepts: datatypes, variables and code blocks
+    - functions and arguments
+    - code structure
+    - conditionals, loops
+    - the range object
+    - while, break
+
+Python datatypes and variables
+    - Main Collection Types: List, Tuple, Set, Dict
+
+Python's primary collection types
+    - Add, remove elements, and iterate over lists, tuples and dictionaries
+    - Other Python Collections
+
+Packages
+    - just a folder to gather related modules
+    - might contain __init__.py (which is no longer needed)
+
+Creating Functions, Modules, and Packages
+    - functions and classes are written inside modules (files) which are placed in packages (folders)
+    - Explore the creation and use of functions for modular code
+    - Understand the concept of modules and packages for organizing and structuring code
+
+Introduction to Functional Programming
+    - Learn how to use higher-order functions such as map and reduce for concise and expressive code
+
+Object-Oriented Programming
+    - Learn the principles and syntax of Object-Oriented Programming
+    - Understand how to define and use classes and objects in Python
+
+Read and write files (including csv)
+
+Overview of Python in use
+    - Automation, machine learning
+    - Jupyter, database, API over http
+
+for further reference see learnpython.org
+
+End of course feedback
