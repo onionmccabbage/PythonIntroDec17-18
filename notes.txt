@@ -37,8 +37,6 @@ Python code essentials
 using %...
 __name__ == '__main__'
 
-
-
 Python datatypes and variables
     > Main Collection Types: List, Tuple, Set, Dict
 
