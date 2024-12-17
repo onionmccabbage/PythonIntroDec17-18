@@ -30,3 +30,6 @@ for i in f:
     print(i)
 for i in g:
     print(i)
+
+# we can carry out maths operations
+print( b/a, b+a, b*a, 10**2 ) # + - / * also ** means raise to the power
