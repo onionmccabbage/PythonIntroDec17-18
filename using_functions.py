@@ -13,8 +13,17 @@ def askUser(): # here is a docstring
             return rand
         else:
             print(f'{r} is not a number')
-    
+
+def odds(x, y): # if we wish we may pass in arguments like this
+    '''return a tuple containing the odd numbers between x and y'''
+    r = range(x, y, 2) # (start, stop-before, step)
+    # we can use this range to populate a tuple
+    return tuple(r) # we may need to return some value!!!
+
 # exercise the code
 l = askUser()
 print(f'The random integer is {l}')
+
+o = odds(1, 11)
+print(o)
 
