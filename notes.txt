@@ -60,7 +60,8 @@ Object-Oriented Programming
     - Learn the principles and syntax of Object-Oriented Programming
     - Understand how to define and use classes and objects in Python
 
-Read and write files (including csv)
+> Read and write files
+ (including csv)
 
 Overview of Python in use
     - Automation, machine learning
