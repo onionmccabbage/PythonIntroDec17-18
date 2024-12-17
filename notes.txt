@@ -28,13 +28,13 @@ Know your IDE
 
 Python code essentials
     > Foundational Concepts: datatypes, variables and code blocks
-    - functions and arguments
+    > functions and arguments
     - code structure
     > conditionals, loops
     > the range object
     > while, break (break will break out of a while loop)
 
-using %...
+> using %...
 __name__ == '__main__'
 
 Python datatypes and variables
