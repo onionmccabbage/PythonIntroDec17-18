@@ -24,6 +24,10 @@ def odds(x, y): # if we wish we may pass in arguments like this
 l = askUser()
 print(f'The random integer is {l}')
 
-o = odds(1, 11)
+o = odds(1, 11) # here we invoke the function, passing in our own choice for x and y
 print(o)
+
+# we may pass any values for x and y
+p = odds(5, 9999999999)
+print(p)
 
