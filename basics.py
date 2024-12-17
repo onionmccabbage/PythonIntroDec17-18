@@ -19,3 +19,14 @@ g[1] = 'altered'
 g.append(None)
 g.append(False)
 print(g, type(g))
+
+# Once created, we CANNOT alter a tuple
+# f[2] = 'oops' # this will fail
+
+# Strings, lists amd tuples are all ordinal. We can iterate over them
+for i in s:
+    print(i) # notice this line is indented
+for i in f:
+    print(i)
+for i in g:
+    print(i)
