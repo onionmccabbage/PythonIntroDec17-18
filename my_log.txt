@@ -1,13 +1,1 @@
-Hello from Python
-6.244997998398398 says Hello from Python
-9.539392014169456 says Hello from Python
-8.0 says Hello from Python
-8.94427190999916 says Hello from Python
-5.0 says Hello from Python
-4.47213595499958 says Hello from Python
-6.928203230275509 says Hello from Python
-4.242640687119285 says Hello from Python
-9.486832980505138 says Hello from Python
-7.615773105863909 says Hello from Python
-3.0 says Hello from Python
-9.695359714832659 says Hello from Python
+3.7416573867739413 says Hello from Python

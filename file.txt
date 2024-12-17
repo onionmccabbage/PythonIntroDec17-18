@@ -1,1 +1,10 @@
-Text written to file: 48 and 6.928203230275509 togetherText written to file: 18 and 4.242640687119285 togetherText written to file: 90 and 9.486832980505138 togetherText written to file: 58 and 7.615773105863909 togetherText written to file: 9 and 3.0 togetherText written to file: 94 and 9.695359714832659 together
+Text written to file: 48 and 6.928203230275509 togetherText written to file: 18 and 4.242640687119285 togetherText written to file: 90 and 9.486832980505138 togetherText written to file: 58 and 7.615773105863909 togetherText written to file: 9 and 3.0 togetherText written to file: 94 and 9.695359714832659 togetherText written to file: 99 and 9.9498743710662 together
+Text written to file: 52 and 7.211102550927978 together
+Text written to file: 15 and 3.872983346207417 together
+Text written to file: 50 and 7.0710678118654755 together
+Text written to file: 36 and 6.0 together
+Text written to file: 74 and 8.602325267042627 together
+Text written to file: 63 and 7.937253933193772 together
+Text written to file: 8 and 2.8284271247461903 together
+Text written to file: 14 and 3.7416573867739413 together
+Text written to file: 20 and 4.47213595499958 together
