@@ -21,7 +21,7 @@ Welcome and Introductions
         - make sure these are completed
 
 Know your IDE
-    - Editing Files
+    > Editing Files
     - Setting python interpreter
     - Debugging
     - Shortcuts
