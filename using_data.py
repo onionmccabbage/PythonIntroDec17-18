@@ -31,3 +31,10 @@ def fancyStuff():
 # we can invoke a function like this (i.e. call the function)
 r = fancyStuff()
 print(r)
+
+# we may ask the user to enter some data
+n = input('Please type a value: ')
+print(n, type(n)) # every user input is ALWAYS a string
+# we can sometimes change the data type
+d = int(n) # we try to convert n into an int
+print(d, type(d))
