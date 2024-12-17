@@ -19,3 +19,15 @@ print(l[2:6:2]) # [start:stop-before:step] slicing
 # slice of this string so we see 'Wallace'
 s = 'Grommit and Wallace live in West Wallaby Lane'
 print( s[12:19] ) # 'Wallace'
+
+# a range object can also provide many calculated results
+squares = [i*i for i in range(1,11)]
+print(squares) # we get a list of square nubmers 1-10
+
+# checking if the user entered a numeric value
+# remember inout always returns a string (even if they type a number)
+n = input('enter a number: ')
+if n.isnumeric(): # check to see if the string contains only digits (not . or - etc)
+    print(f'Thank you {n} is a number') # we may choose to format a string
+else:
+    print(f'{n} is not a number') # {} let us inject values into a string
