@@ -15,7 +15,7 @@ Welcome and Introductions
     What you currently know
     What you want to know
     Course Resources
-        
+        https://github.com/onionmccabbage/PythonIntroDec17-18
     python.org documentation
     Skillnet NI forms
         - make sure these are completed
