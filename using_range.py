@@ -29,5 +29,15 @@ print(squares) # we get a list of square nubmers 1-10
 n = input('enter a number: ')
 if n.isnumeric(): # check to see if the string contains only digits (not . or - etc)
     print(f'Thank you {n} is a number') # we may choose to format a string
+    # we can safely convert the string to an integer
+    num = int(n)
+    # NB single equals SETS a value. Double equals CHECKS a value
+    # compare this number to expected values
+    if num <10: # comparison operators: == < > also <= >= and != (not equal)
+        print(f'{num} is less than ten')
+    elif num >=10 and num<100: # we may choose to have several elif statements
+        print(f'{num} is less than 100')
+    else:
+        print(f'{num} is 100 or more')
 else:
     print(f'{n} is not a number') # {} let us inject values into a string
