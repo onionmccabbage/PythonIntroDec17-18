@@ -32,7 +32,7 @@ Python code essentials
     - code structure
     > conditionals, loops
     > the range object
-    - while, break
+    > while, break (break will break out of a while loop)
 
 Python datatypes and variables
     > Main Collection Types: List, Tuple, Set, Dict

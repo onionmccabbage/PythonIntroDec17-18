@@ -14,7 +14,9 @@ def askUser(): # here is a docstring
         else:
             print(f'{r} is not a number')
 
-def odds(x, y): # if we wish we may pass in arguments like this
+# we may choose to provide default values for the arguments
+# The defaults can be overridden when the function is called
+def odds(x=1, y=11): # if we wish we may pass in arguments like this
     '''return a tuple containing the odd numbers between x and y'''
     r = range(x, y, 2) # (start, stop-before, step)
     # we can use this range to populate a tuple
@@ -28,6 +30,9 @@ o = odds(1, 11) # here we invoke the function, passing in our own choice for x a
 print(o)
 
 # we may pass any values for x and y
-p = odds(5, 9999999999)
+p = odds(5, 9999) # here we override the default values with our own
 print(p)
+
+q = odds() # there the default values will be used
+print(q)
 
