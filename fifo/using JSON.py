@@ -1,6 +1,5 @@
 # JSON is a very common data interchange format
-import json ' ...from teh Pyhton standard library'
-
+import json # ...from the Pyhton standard library
 
 j = '''{
   "albumId": 1,
