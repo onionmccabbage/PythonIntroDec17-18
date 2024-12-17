@@ -6,7 +6,8 @@ def readText():
         # NB for code-hinting try ctrl-space
         fin = open('file.txt', 'rt') # 'rt' will read text
         with fin:
-            retrieved = fin.read() # read all the contents as one long string of text
+            # retrieved = fin.read() # read all the contents as one long string of text
+            retrieved = fin.readlines() # read all the contents into a list of strings
             # remember the file access object will close when we are done
         return retrieved
     except Exception as err:
@@ -14,4 +15,4 @@ def readText():
 
 # we may exercise the code
 r = readText() # call the function
-print(r)
+print(r, type(r))
