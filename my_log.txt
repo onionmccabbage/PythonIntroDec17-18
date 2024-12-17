@@ -1,1 +1,7 @@
 Hello from Python
+6.244997998398398 says Hello from Python
+9.539392014169456 says Hello from Python
+8.0 says Hello from Python
+8.94427190999916 says Hello from Python
+5.0 says Hello from Python
+4.47213595499958 says Hello from Python

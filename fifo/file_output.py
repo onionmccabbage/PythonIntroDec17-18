@@ -9,6 +9,15 @@ def printToFile(t):
     fout = open('my_log.txt', 'at') # 'at' will append text to the file
     # we can use 'print' to send text to a file
     print(f'{t} says Hello from Python', file=fout) # here we specify where the print should go
+    fout.close() # good idea to tidy up when done
+
+def writeTofile(t):
+    '''Write text into a persistent file'''
+    fout = open('file.txt', 'at') # we have a file access object
+    with fout: # tidy way to handle file access object
+        fout.write(t)
+    # the file access object will be closed autoamtically when the 'with' block ends
+
 
 # exercise the code
 r = random.randint(0,100)
