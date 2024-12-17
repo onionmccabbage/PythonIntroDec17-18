@@ -16,14 +16,20 @@ def printToFile(t):
         fout.close() # good idea to tidy up when done
     except FileExistsError as err:
         print(f'There was a problem: {err}')
+    # we also handle any other exceptions
+    except Exception as err:
+        print(f'A general problem occured: {err}')
 
 def writeTofile(t):
     '''Write text into a persistent file'''
-    fout = open('file.txt', 'at') # we have a file access object
-    with fout: # tidy way to handle file access object
-        # \n will write a new line character. \t will put a tab character
-        fout.write(f'{t}\n') # NB write does NOT auitomatically add a new line after output
-    # the file access object will be closed autoamtically when the 'with' block ends
+    try:
+        fout = open('file.txt', 'at') # we have a file access object
+        with fout: # tidy way to handle file access object
+            # \n will write a new line character. \t will put a tab character
+            fout.write(f'{t}\n') # NB write does NOT auitomatically add a new line after output
+        # the file access object will be closed autoamtically when the 'with' block ends
+    except Exception as err:
+        print(f'A general problem occured: {err}')
 
 
 # exercise the code
