@@ -11,6 +11,7 @@ def askUser(): # here is a docstring
         if r.isnumeric():
             rand = random.randint(0, int(r))
             return rand
+            break # break will break out of the while loop
         else:
             print(f'{r} is not a number')
 
