@@ -21,6 +21,7 @@ def tempFilter():
 
 if __name__ == '__main__':
     # here we can exercise the code in THIS module
+    # map and filter are known as 'higher order functions' (they take functions and operate on them)
     print( controlAC(23) )
     # here is a load of data
     data = [(4,5,6),(-7,-3,-99,-2),(0,0,0,0),(3246,7644,2344,7647,5673,1236,7565)]
