@@ -18,6 +18,11 @@ class User():
         '''the __init__ function is called every time we use the class'''
         self.name = n
 
+# Many things within Python have leading and trailing double underscore
+# __name__, __main__, __init__ etc.
+# These are known as 'dunder' (double underscore)
+# Anything like this is a part of Python
+
 if __name__ == '__main__':
     # exercise the code
     userA = User('Ethel') # we now have an instance of the class
