@@ -3,6 +3,7 @@ class Weather():
     The Weather class takes a string for the description
     and a floating point number or integer for the temperature
     '''
+    __slots__ = ['__city', '__desc', '__temp']
     def __init__(self, city, desc, temp):
         self.city = city # remember - this calls the function to set (and validate) the city value
         self.desc = desc

@@ -12,7 +12,7 @@ e.g. Dublin, cloudy, 14 degrees   Letterkenny, sunny, 17 degrees
 Add a method to the class which returns a nicely formatted weather report for that location
 (i.e. write a __str__ method)
 
-There will be an oportunity to show what you have built
+There will be an opportunity to show what you have built
 
 - You may choose to use several modules (with import)
 - You might need try-except (especially for file handling)
