@@ -17,6 +17,15 @@ class User():
     def __init__(self, n):
         '''the __init__ function is called every time we use the class'''
         self.name = n
+    # we may declare properties to validate parts of the class
+    @property # we now have an accessor method (a getter)
+    def name(self):
+        return self.__name
+    @name.setter # this is the mutator method (a setter)
+    def name(self, new_name):
+        '''valiate the name is a non-empty string'''
+        if type(new_name)==str and new_name != '':
+            self.__name = new_name
     def __str__(self): # NB every method in a class takes 'self' as an argument
         '''Everthing in Python has a __str__ method
         It is used whenever we use 'print' for output'''
