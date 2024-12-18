@@ -16,7 +16,7 @@ class User():
     Name will be a non-empty string'''
     def __init__(self, n):
         '''the __init__ function is called every time we use the class'''
-        self.name = n
+        self.name = n # this line calls the 'name' setter fucntion below
     # we may declare properties to validate parts of the class
     @property # we now have an accessor method (a getter)
     def name(self):
