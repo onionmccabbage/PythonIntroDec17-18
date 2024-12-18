@@ -18,4 +18,7 @@ if __name__ == '__main__':
     data = [(4,5,6),(-7,-3,-99,-2),(0,0,0,0),(3246,7644,2344,7647,5673,1236,7565)]
     # invoke our mapping function
     r = useMap(data)
-    print(r)
+    print(r) # we have a map object
+    # we need to iterate over thsi map object
+    for i in r:
+        print(i)
