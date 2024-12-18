@@ -2,6 +2,8 @@ from weather import Weather
 import requests
 import sys
 
+# https://api.openweathermap.org/data/2.5/weather?q=galway&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
+
 def getWeather(city='Athlone'):
     key='48f2d5e18b0d2bc50519b58cce6409f1'
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID={key}'
