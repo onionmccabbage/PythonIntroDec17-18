@@ -1,4 +1,4 @@
-Review 2 60 minutes (until )
+Review 2 60 minutes (until 2:40)
 ========
 (Feel free to build a class for your OWN data)
 Write a class to encapsulate a weather report for a location 
