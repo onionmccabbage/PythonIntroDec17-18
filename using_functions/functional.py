@@ -12,6 +12,15 @@ def controlAC(temperature):
     else:
         return 'Just right'
     
+def findAverage(tup):
+    '''calculate the average of all the numbers in a tuple'''
+    numValues = len(tup)
+    total = 0
+    for i in tup:
+        total += i
+    return total/numValues 
+
+
 # we write the following line to ensure the exercise-code only runs
 # when we run this module directly (not via import)
 if __name__ == '__main__':
@@ -20,3 +29,5 @@ if __name__ == '__main__':
     print( controlAC(33) )
     print( controlAC(-12) )
     print( controlAC(24) )
+    t = (1,2,3,4,5)
+    print( findAverage(t) ) # 3
