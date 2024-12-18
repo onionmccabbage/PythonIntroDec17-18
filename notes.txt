@@ -24,27 +24,27 @@ Welcome and Introductions
 
 Know your IDE
     > Editing Files
-    - Setting python interpreter
-    - Debugging
-    - Shortcuts
+    > Setting python interpreter
+    > Debugging
+    > Shortcuts
 
 Python code essentials
     > Foundational Concepts: datatypes, variables and code blocks
     > functions and arguments
-    - code structure
+    > code structure
     > conditionals, loops
     > the range object
     > while, break (break will break out of a while loop)
 
 > using %...
-__name__ == '__main__'
+> __name__ == '__main__'
 
 Python datatypes and variables
     > Main Collection Types: List, Tuple, Set, Dict
 
 Python's primary collection types
     > Add, remove elements, and iterate over lists, tuples and dictionaries
-    - Other Python Collections
+    > Other Python Collections
 
 Packages
     > just a folder to gather related modules
@@ -62,7 +62,7 @@ Object-Oriented Programming
     > Learn the principles and syntax of Object-Oriented Programming
     > Understand how to define and use classes and objects in Python
 
-- after lunch review exercise
+> after lunch review exercise
 
 > Read and write files
 > (including csv)
