@@ -11,6 +11,14 @@ def useMap(data):
     result = map(findAverage, data)
     return result
 
+# we may also use a function to filter results
+def ok(t):
+    if t>12 and t<35:
+        return t # only return values that set expectations
+def tempFilter():
+    tempOK = filter(ok, range(-8, 67))
+    return tempOK
+
 if __name__ == '__main__':
     # here we can exercise the code in THIS module
     print( controlAC(23) )
@@ -19,6 +27,9 @@ if __name__ == '__main__':
     # invoke our mapping function
     r = useMap(data)
     print(r) # we have a map object
-    # we need to iterate over thsi map object
+    # we need to iterate over this map object
     for i in r:
         print(i)
+    print( tempFilter() ) # we have a a filter object
+    for i in tempFilter():
+        print(i) # we see 13,...34
