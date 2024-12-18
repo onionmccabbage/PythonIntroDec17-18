@@ -73,6 +73,6 @@ Overview of Python in use
     > Automation, machine learning
     > Jupyter, database, API over http
 
-for further reference see learnpython.org
+for further reference see learnpython.org  
 
 End of course feedback
