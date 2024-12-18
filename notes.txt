@@ -15,7 +15,9 @@ Welcome and Introductions
     What you currently know
     What you want to know
     Course Resources
+        https://neueda.conygre.com/Sites/optum_intro_to_python_nof330_2/site/index.html
         https://github.com/onionmccabbage/PythonIntroDec17-18
+    - how to access the recordings...
     python.org documentation
     Skillnet NI forms
         - make sure these are completed
@@ -59,6 +61,8 @@ Introduction to Functional Programming
 Object-Oriented Programming
     - Learn the principles and syntax of Object-Oriented Programming
     - Understand how to define and use classes and objects in Python
+
+- after lunch review exercise
 
 > Read and write files
 > (including csv)
