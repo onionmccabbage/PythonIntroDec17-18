@@ -37,6 +37,8 @@ class User():
     def age(self, new_age):
         if type(new_age) in (int, float) and new_age >=0:
             self.__age = new_age ## all good, it is valid
+        else:
+            raise TypeError('Age must be a positive number')
     # here we write the getter and setter for 'Auth' (validate it is a bool type)
     @property
     def auth(self):
@@ -45,6 +47,9 @@ class User():
     def auth(self, new_auth):
         if type(new_auth)==bool:
             self.__auth = new_auth
+        else:
+            # we might choose to set a sensible default
+            self.__auth = False
     def __str__(self): # NB every method in a class takes 'self' as an argument
         '''Everthing in Python has a __str__ method
         It is used whenever we use 'print' for output'''
