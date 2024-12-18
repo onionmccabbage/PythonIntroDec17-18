@@ -14,6 +14,16 @@ class WG():
     def name(self, new_name):
         if type(new_name)==str and new_name !='':
             self.__name = new_name
+    @property
+    def align(self):
+        return self.__align
+    @align.setter
+    def align(self, new_align):
+        # valid data is goodie, baddie, Goodie, Baddie
+        if new_align.lower() in ('goodie', 'baddie'): # force to lower case to check
+            self.__align = new_align
+        else:
+            self.__align = 'goodie'
 
     def __str__(self):
         pass
