@@ -35,8 +35,11 @@ class WG():
         else:
             raise TypeError(f'{new_mat} is not an acceptable list of amterials')
     def __str__(self):
-        pass
+        # NB here we call the getter for each property
+        return f'{self.name} is a {self.align} made of {self.materials}'
 
 if __name__ == '__main__':
-    wallace  = WG()
-    feathers = WG()
+    wallace  = WG('Wallace', 'Goodie', ['plasticene', 'Silicone', 'Cheese'])
+    feathers = WG('Feathersd McGraw', 'Baddie', ['plasticene', 'wire', 'fingerprints'])
+    print(wallace)
+    print(feathers)
