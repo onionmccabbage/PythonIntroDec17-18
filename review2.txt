@@ -1,0 +1,29 @@
+Review 2 60 minutes (until )
+========
+(Feel free to build a class for your OWN data)
+Write a class to encapsulate a weather report for a location 
+You can decide on any properties you like, but location, temperature and description would be good
+Validate location (non-empty string) temperature (int or float) and description (non-empty string)
+Decide what to do about invalid values (e.g. raise and exception or use a default)
+
+Exercise the code by making several instances of the weather class (for a few locations)
+e.g. Dublin, cloudy, 14 degrees   Letterkenny, sunny, 17 degrees
+
+Add a method to the class which returns a nicely formatted weather report for that location
+(i.e. write a __str__ method)
+
+There will be an oportunity to show what you have built
+
+- You may choose to use several modules (with import)
+- You might need try-except (especially for file handling)
+- Alter these instructions to suit your own ideas
+
+Optional
+========
+Find a way to validate location as a string of 2 or more characters
+Write the data for each of your weather reports to a text file (append each new weather report)
+(easiest to print to a file, so the __str__ makes it look nice)
+Also find a way to read back and nicely display the weather reports from this file
+
+When you have a number of weather-reports, use filter to show only the warmer places
+

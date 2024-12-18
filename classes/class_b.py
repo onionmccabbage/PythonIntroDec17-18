@@ -40,6 +40,6 @@ class WG():
 
 if __name__ == '__main__':
     wallace  = WG('Wallace', 'Goodie', ['plasticene', 'Silicone', 'Cheese'])
-    feathers = WG('Feathersd McGraw', 'Baddie', ['plasticene', 'wire', 'fingerprints'])
+    feathers = WG('Feathers McGraw', 'Baddie', ['plasticene', 'wire', 'fingerprints'])
     print(wallace)
     print(feathers)

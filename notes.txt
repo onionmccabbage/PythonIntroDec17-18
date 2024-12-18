@@ -47,20 +47,20 @@ Python's primary collection types
     - Other Python Collections
 
 Packages
-    - just a folder to gather related modules
-    - might contain __init__.py (which is no longer needed)
+    > just a folder to gather related modules
+    > might contain __init__.py (which is no longer needed)
 
 Creating Functions, Modules, and Packages
-    - functions and classes are written inside modules (files) which are placed in packages (folders)
-    - Explore the creation and use of functions for modular code
-    - Understand the concept of modules and packages for organizing and structuring code
+    > functions and classes are written inside modules (files) which are placed in packages (folders)
+    > Explore the creation and use of functions for modular code
+    > Understand the concept of modules and packages for organizing and structuring code
 
 Introduction to Functional Programming
-    - Learn how to use higher-order functions such as map and reduce for concise and expressive code
+    > Learn how to use higher-order functions such as map and reduce for concise and expressive code
 
 Object-Oriented Programming
-    - Learn the principles and syntax of Object-Oriented Programming
-    - Understand how to define and use classes and objects in Python
+    > Learn the principles and syntax of Object-Oriented Programming
+    > Understand how to define and use classes and objects in Python
 
 - after lunch review exercise
 
