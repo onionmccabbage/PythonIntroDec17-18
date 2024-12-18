@@ -17,6 +17,10 @@ class User():
     def __init__(self, n):
         '''the __init__ function is called every time we use the class'''
         self.name = n
+    def __str__(self): # NB every method in a class takes 'self' as an argument
+        '''Everthing in Python has a __str__ method
+        It is used whenever we use 'print' for output'''
+        return f'This is {self.name}'
 
 # Many things within Python have leading and trailing double underscore
 # __name__, __main__, __init__ etc.
@@ -27,3 +31,5 @@ if __name__ == '__main__':
     # exercise the code
     userA = User('Ethel') # we now have an instance of the class
     print( userA.name )
+    userB = User('Oenid') # another instance of the class
+    print(userB)
