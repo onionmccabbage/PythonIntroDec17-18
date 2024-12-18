@@ -14,11 +14,13 @@ print(f'User {n[1]} is {n[0]}') # use slicing to acess ordinal members of a coll
 class User():
     '''this class will encapsulate user details
     Name will be a non-empty string
-    Age will be a positive number'''
-    def __init__(self, n, a):
+    Age will be a positive number
+    Auth will be True or False (bool) '''
+    def __init__(self, n, a, auth):
         '''the __init__ function is called every time we use the class'''
         self.name = n # this line calls the 'name' setter fucntion below
         self.age  = a
+        self.auth = auth
     # we may declare properties to validate parts of the class
     @property # we now have an accessor method (a getter)
     def name(self):
@@ -35,6 +37,14 @@ class User():
     def age(self, new_age):
         if type(new_age) in (int, float) and new_age >=0:
             self.__age = new_age ## all good, it is valid
+    # here we write the getter and setter for 'Auth' (validate it is a bool type)
+    @property
+    def auth(self):
+        return self.__auth
+    @auth.setter
+    def auth(self, new_auth):
+        if type(new_auth)==bool:
+            self.__auth = new_auth
     def __str__(self): # NB every method in a class takes 'self' as an argument
         '''Everthing in Python has a __str__ method
         It is used whenever we use 'print' for output'''
@@ -47,7 +57,7 @@ class User():
 
 if __name__ == '__main__':
     # exercise the code
-    userA = User('Ethel', 36) # we now have an instance of the class
+    userA = User('Ethel', 36, False) # we now have an instance of the class
     print( userA.name )
-    userB = User('Oenid', 98) # another instance of the class
+    userB = User('Oenid', 98, True) # another instance of the class
     print(userB)
