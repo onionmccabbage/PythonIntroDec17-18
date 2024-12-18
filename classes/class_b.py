@@ -24,7 +24,16 @@ class WG():
             self.__align = new_align
         else:
             self.__align = 'goodie'
-
+    @property
+    def materials(self):
+        return self.__materials
+    @materials.setter
+    def materials(self, new_mat):
+        '''we expect a list of materials'''
+        if type(new_mat)==list and len(new_mat)>0:
+            self.__materials = new_mat
+        else:
+            raise TypeError(f'{new_mat} is not an acceptable list of amterials')
     def __str__(self):
         pass
 
